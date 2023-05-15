@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.active{
+    display: block;
+}
+
+.inactive{
+    display: none;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    align-items:center;
+}
+
+.img-container{
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.fa-solid.fa-circle-right{
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+}
+
+.fa-solid.fa-circle-left{
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    top:50%;
+    left:5px;
+}
